@@ -357,6 +357,8 @@ namespace WinServiceLib
 			}
 		}
 	};
+
+	BaseService* BaseService::_instance = NULL;
 }
 
 #endif /* BASE_SERVICE_HPP_ */
